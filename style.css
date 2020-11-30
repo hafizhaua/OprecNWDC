@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner {
+    position: relative;
+}
+.banner img{
+    width:100%;
+    max-width: 100%;
+}
+
+.banner header{
+    font-family: ;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.banner header h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    position: absolute;
+    width: 446px;
+    height: 216px;
+    left: 100px;
+    top: 60px;
+    font-size: 80px;
+    z-index: 2;
+}
+
+.banner header h1 span {
+    font-size: 100px;
+}
+
+.fp {
+    position: absolute;
+    width: 422px;
+    height: 422px;
+    left: 0px;
+    top: 205px;
+    z-index: 1;
+    margin: 0;
+}
+
+nav{
+    padding:20px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ul{
+    text-align: end;
+    margin:0 50px 0 0;
+    white-space: nowrap;
+}
+nav li{
+    width: 22%;
+    display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color:black;
+    transition: color 0.4s ease;
+}
+
+nav li a:hover{
+    top: 2px;
+    color: grey;
+}
+
+.content {
+    text-align: justify;
+    margin: 120px;
+    line-height: 1.5;
+}
+
+.content h1{
+    font-size: 50px;
+    margin:0;
+}
+.content p{
+    max-width: 50%;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #202020;
+    padding: 20px;
+}
+
+.stack {
+    margin-right: 0;
+    background-repeat: no-repeat;
+    background-image: url(/img/textedit.png);
+    background-position: right 50px;
+}
+
+.profile {
+    background-size: 30%;
+    margin-right: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-image: url(/img/me.jpg);
+    background-position: right 50px;
+}
+
+.reason p{
+    max-width: 100%;
+}
+
+.develop p{
+    max-width: 100%;
+}
